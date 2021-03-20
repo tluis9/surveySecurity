@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Security Survey</title>
+  <meta name="description" content="Survey">
+  <meta name="author" content="Luke Lehane">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="container">	
+    <div class="row">
+  	  <div class="two-thirds column">
+        <h2>Security Survey</h2>
+
+        <div id="progress_bar"></div>
+  	  	<form class="questions_box">
+
+  	  		<div id="question-1">
+  	  		  <h2>Questão 1</h2>
+  	  			<h3>Você se preocupa em se tornar uma vítima de fraude?</h3>
+  	  			<input id="question-1-answer-a" type="radio" name="favelang" value=1> O que é Fraude?<br>
+  				  <input id="question-1-answer-b" type="radio" name="favelang" value=2> Nunca me preocupo<br>
+  				  <input id="question-1-answer-c" type="radio" name="favelang" value=3> Sim, eu me preocupo muito com isso!<br>
+  				  <div id="submit1" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+  			  </div>
+
+  			 <div id="question-2">
+  				 <h2>Questão 2</h2>
+  				 <h3>Você utiliza a mesma senha para tudo?</h3>
+  	  		 <input id="question-2-answer-a" type="radio" name="favelang" value="1"> Sim!<br>
+  				 <input id="question-2-answer-b" type="radio" name="favelang" value="2"> Só para as senhas de cartão de crédito<br>
+  				 <input id="question-2-answer-c" type="radio" name="favelang" value="3"> Não, todas são diferentes!<br>
+  				 <div id="submit2" class="button">Enviar Resposta</div>
+           <div class="clearfix"></div>
+  			 </div>
+  			
+  			 <div id="question-3">	
+  				 <h2>Questão 3</h2>
+  				 <h3>Você confia em um e-mail enviado pelas suas costas pedindo sua senha?</h3>
+  	  		 <input id="question-3-answer-a" type="radio" name="favelang" value="1"> Sim, é o banco afinal<br>
+  				 <input id="question-3-answer-b" type="radio" name="favelang" value="2"> Se parece oficial, sim<br>
+  				 <input id="question-3-answer-c" type="radio" name="favelang" value="3"> De jeito nenhum, um banco nunca pedirá a senha de sua conta<br>
+  				 <div id="submit3" class="button">Enviar Resposta</div>
+           <div class="clearfix"></div>
+  			 </div>
+
+         <div id="question-4">
+            <h2>Questão 4</h2>
+            <h3>Você costuma usar cartão de crédito virtual em compras online?</h3>
+            <input id="question-1-answer-a" type="radio" name="favelang" value="1"> Não <br>
+            <input id="question-1-answer-b" type="radio" name="favelang" value="2"> Raramente uso<br>
+            <input id="question-1-answer-c" type="radio" name="favelang" value="3"> Sim, com certeza!<br>
+            <div id="submit4" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-5">
+            <h2>Questão 5</h2>
+            <h3>Você compartilha seu PIN com alguém?</h3>
+            <input id="question-1-answer-a" type="radio" name="favelang" value="1"> Sim, qualquer um que pedir por isso<br>
+            <input id="question-1-answer-b" type="radio" name="favelang" value="2"> Na verdade não, mas às vezes eu deixo meu(minha) parceiro(a) sacar dinheiro para mim<br>
+            <input id="question-1-answer-c" type="radio" name="favelang" value="3"> Nunca!<br>
+            <div id="submit5" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+         <div id="question-6"> 
+           <h2>Obrigado por responder a pesquisa!</h2>
+           <h3>Seu score de segurança é: </h3>
+           <h1 id=printtotalscore></h1>
+           <p id=printscoreinfo></p>
+
+         </div>
+
+
+  				
+  	  	</form>
+
+  	  </div>
+  	</div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
